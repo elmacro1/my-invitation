@@ -1,5 +1,13 @@
 import type { Metadata } from "next";
+import { Cedarville_Cursive } from "next/font/google";
 import "./globals.css";
+
+const cedarvileCursive = Cedarville_Cursive({
+  subsets: ["latin"],
+  variable: "--font-cedarvile-cursive",
+  display: "swap",
+  weight: ["400"],
+});
 
 export const metadata: Metadata = {
   title: "My invitation",
@@ -12,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="es" className={`${cedarvileCursive.variable}`}>
       <body>{children}</body>
     </html>
   );
