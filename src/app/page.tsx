@@ -1,9 +1,11 @@
 import Hero from "./components/Hero/Hero";
+import Counter from "./components/Counter/Counter";
 
-export default function Home() {
-  return (
-    <div>
-      <Hero />
-    </div>
-  );
-}
+const Home = () => (
+  <>
+    <Hero />
+    <Counter />
+  </>
+);
+
+export default Home;

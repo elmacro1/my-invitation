@@ -1,0 +1,36 @@
+.main_container {
+  width: 100%;
+  max-width: 1240px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+  padding-inline: 16px;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.value_container {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #ccc6b6;
+}
+
+.value {
+  font-family: var(--font-mold);
+  font-size: 1.5rem;
+}
+
+.label {
+  font-family: var(--font-mold);
+  font-size: 1.25rem;
+}

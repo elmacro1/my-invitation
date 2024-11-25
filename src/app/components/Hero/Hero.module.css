@@ -5,6 +5,7 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 56px;
 }
 
 .title_container {
@@ -20,7 +21,7 @@
   font-size: 3rem;
   line-height: 50px;
   color: #fff;
-  font-family: var(--font-cedarvile-cursive), cursive;
+  font-family: var(--font-cursive), cursive;
   text-align: center;
 }
 
@@ -28,6 +29,6 @@
   font-size: 1.5rem;
   line-height: 24px;
   color: #fff;
-  font-family: var(--font-cedarvile-cursive), cursive;
+  font-family: var(--font-cursive), cursive;
   text-align: center;
 }
